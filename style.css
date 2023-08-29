@@ -2,8 +2,9 @@ body {
   margin: 0px;
   padding: 0px;
   background-color: #a4152c;
-  margin-top: 1550px;
+  margin-top: 1750px;
 }
+
 ul {
   list-style: none;
 }
@@ -17,12 +18,13 @@ a {
   height: 100vh;
   background-color: #a4152c;
   display: flex;
+  justify-content: center;
   align-items: center;
 }
 
 .box {
   width: 350px;
-  height: 610px;
+  height: 640px;
   background-color: #1e1e26;
   border-radius: 10px;
   box-shadow: 2px 10px 12px rgba (0, 0, 0, 0.5);
@@ -47,7 +49,7 @@ a {
   width: 300px;
 }
 
-.details li p {
+.details p {
   font-family: calibri;
   font-weight: bold;
   color: #6a6a74;
@@ -55,7 +57,7 @@ a {
   margin-top: 20px;
 }
 
-.bts {
+.BTS {
   color: #32323e;
   font-weight: bold;
   letter-spacing: 2px;
@@ -74,11 +76,12 @@ a {
   transition: all ease 0.3s;
 }
 
-.box:hover .bts {
+.box:hover .BTS {
   color: #c0292b;
   transition: all ease 0.5s;
 }
 
+/*--responsive for mobile--*/
 @media (max-width: 720px) {
   .box {
     width: 94%;
